@@ -1,0 +1,178 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+
+/* headings */
+
+.big-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#testimonial .big-heading{
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+}
+
+/* container */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7.15%;
+  text-align: left;
+}
+
+#footer .container-fluid{
+  padding: 7% 15% 0;
+}
+
+
+/* section containers */
+.coloured-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* Title image */
+.phone-img {
+  transform: rotate(30deg);
+  width: 60%;
+  position: absolute;
+  right: 25%;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat"
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* features section */
+
+#features {
+  position: relative;
+}
+
+.feature-heading{
+  font-size: 1.5rem;
+}
+
+/* features images */
+.feat-img {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feat-img:hover {
+  color: #ff4c68;
+}
+
+.feat-text {
+  color: #8f8f8f;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* testimonial section */
+#testimonials {
+  background-color: #ef8172;
+  padding: 40px;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text{
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+/* press section */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 15px;
+}
+
+/* pricing section */
+
+#pricing {
+  padding: 80px;
+}
+
+.pricing-column {
+  padding: 10px;
+}
+
+.price-text{
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+/* cta section */
+.cta-text {
+  padding: 0 15%;
+  margin-bottom: 50px;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+.cta-btn {
+  margin: 20px 10px;
+}
+
+/* footer section */
+.foot-icon {
+  margin: 10px 5px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .phone {
+    position: static;
+    transform: rotate(0);
+  }
+}
